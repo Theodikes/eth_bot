@@ -35,4 +35,4 @@ def main():
     send_price_to_channel(current_eth_price)
 
 
-Timer(CHECK_PRICE_INTERVAL_IN_SECONDS, main).start()
+main()
